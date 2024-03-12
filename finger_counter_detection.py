@@ -9,12 +9,12 @@ cap = cv2.VideoCapture(1)
 cap.set(3, widthCam)
 cap.set(4, heightCam)
 
-folderPath = "python_tutorials"
-myList = os.listdir("C:\Users\DELL\Desktop\python_tutorials")
+folderPath = "python_projects"
+myList = os.listdir("C:\Users\DELL\Desktop\python_projects")
 print(myList)
 overlayList = []
 for imPath in myList:
-    image = cv2.imread(f'{"C:\Users\DELL\Desktop\python_tutorials"}/{C:\Users\DELL\Desktop\python_tutorials\one_fing.jpg}')
+    image = cv2.imread(f'{"C:\Users\DELL\Desktop\python_tutorials"}/{C:\Users\DELL\Desktop\python_projects\one_fing.jpg}')
     # print(f'{folderPath}/{imPath}')
     overlayList.append(image)
 
